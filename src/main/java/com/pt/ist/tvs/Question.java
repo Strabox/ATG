@@ -15,6 +15,9 @@ public class Question {
 	// Returns all subjects of this question
 	public List<String> getSubjects() { /* .... */ return null;}
 	
+	// Returns all the choices of this question
+	public List<String> getChoices() { /* .... */ return null; }
+	
 	// Computes the grade considering the weight of this question and the selected choice
 	public float grade(int selectedChoice) { /* .... */ return 0;}
 	
